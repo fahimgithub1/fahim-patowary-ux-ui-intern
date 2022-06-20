@@ -1,0 +1,46 @@
+body{
+    margin: 0%;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    font-family: Poppins;
+    color: rgb(69, 51, 116);
+}
+
+h1{
+    /* margin: auto; */
+    margin-bottom: 1.5rem;
+}
+
+h1, h2, h3,h4,h5{
+    color: rgb(68, 26, 168);
+    font-weight: bolder;
+}
+
+/* talk section */
+.talk-section{
+    padding: 3rem 0;
+    text-align: left;
+    background-color: rgb(46, 30, 93);
+    color: white;
+}
+
+.talk-title{
+    color: white;
+}
+
+.talk-para{
+    font-size: 12px;
+    color: rgb(203, 203, 203);
+}
+
+.talk-btn{
+    float: right;
+    margin-top: .5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .talk-btn{
+        float: none;
+    }
+}

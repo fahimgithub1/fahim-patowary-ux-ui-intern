@@ -1,0 +1,148 @@
+.nav-hros{
+    background-color: rgb(217, 201, 227, .1);
+    /* padding-bottom: 2rem; */
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.logo-pic-bac{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 110px;
+}
+
+@media only screen and (max-width: 471px) {
+    .logo-pic-bac{
+        width: 35%;
+    }
+}
+
+/* navigationber css code */
+nav{
+    z-index: +10;
+}
+.container-fluid{
+    padding: 0rem 3rem 0rem 3.7rem;
+    font-weight: bold;
+}
+
+.navbar-brand > img{
+    width: 65px;
+    height: 30px;
+}
+
+.nav-item:not(:last-child){
+    margin-right: .5rem;
+}
+
+.nav-link{
+    color: rgba(86, 71, 123, 1);
+}
+
+.nev-btn{
+    display: flex;
+    /* text-align: left; */
+    border-radius: 25px;
+    font-weight: bold;
+    color: wheat;
+    margin: auto;
+    background-color: rgb(212, 120, 0);
+}
+
+.nev-btn > i{
+    /* justify-items: center; */
+    margin-top: 3px;
+}
+
+.nev-btn > a{
+    padding: 0;
+    margin: 0;
+    color: wheat;
+    text-align: center;
+}
+
+.manueber{
+    align-items: right;
+    width: 70%;
+    justify-content: end;
+}
+
+/* navigationber css code */
+.row{
+    margin: 0;
+    padding: 0;
+}
+.heros{
+    text-align: left;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    /* height: 90vh; */
+    margin-top: -2rem;
+    /* width: auto; */
+}
+
+.sent-icon{
+    color: black;
+    margin: auto;
+    align-items: center;
+    padding-top: 80%;
+}
+
+.hero-title-div{
+    /* text-justify: auto; */
+    margin: auto;
+}
+
+.heros-btn{
+    border-radius: 25px;
+    padding: .5rem 2rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(212, 120, 0);
+    border: none;
+}
+
+.hero-img-div{
+    margin: 0;
+    padding: 0;
+}
+
+.hero-img{
+    width: 100%;
+    height: 90vh;
+    margin-top: -1.7rem;
+    z-index: -10;
+}
+
+@media only screen and (max-width: 992px) {
+    .heros{
+        margin-top: 1.5rem;
+    }
+    
+    .hero-img{
+        margin-top: 0;
+        z-index: 0;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .heros{ 
+        margin-top: 3rem;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .heros{ 
+        margin-top: 2rem;
+    }
+
+    .hero-title-div{
+        /* text-justify: auto; */
+        padding-left: 2rem;
+    }
+}
+

@@ -1,0 +1,27 @@
+.build-sucess{
+    margin: 5rem 0;
+    z-index: +10;
+}
+
+.build-sucess-img{
+    margin-bottom: 3rem;
+}
+
+.build-sucess-div{
+    margin: auto;
+    text-align: left;
+    z-index: +10;
+}
+
+.text-div-sucess{
+    padding-left: 2rem;
+}
+
+.text-div-sucess > h4{
+    font-weight: 900;
+    margin-bottom: 1.4rem;
+}
+
+.text-div-sucess > p{
+    margin-bottom: 1.4rem;
+}

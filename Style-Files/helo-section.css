@@ -1,0 +1,40 @@
+.help-section{
+    /* height: 400px; */
+    margin: -8rem 0 0rem 0;
+    background-color: rgb(217, 201, 227, .35);
+    clip-path: polygon(53% 9%, 69% 8%, 89% 6%, 100% 0, 100% 100%, 0 100%, 0 0, 12% 6%, 26% 8%, 41% 9%);
+}
+
+.main-text{
+    padding: 10rem 0 3rem 0;
+    z-index: -10;
+}
+
+.hepl-option{
+    margin: auto;
+    padding: 1rem;
+    text-align: left;
+    background-color: white;
+    /* margin: .5rem; */
+    margin-bottom: 1.7rem;
+    margin-top: 1rem;
+}
+
+.circle-div{
+    height: 30px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 10px 0px;
+    background-color: rgb(212, 120, 0);
+}
+
+.square-div{
+    height: 10px;
+    width: 10px;
+    border: 2px solid white;
+}
+
+.smal-div > p{
+    font-size: 14px;
+}
+
